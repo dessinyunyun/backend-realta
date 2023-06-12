@@ -1,0 +1,6 @@
+1:N, hotel_id, hore_hotel_id, hotel.hotels, hotel.hotel_reviews
+N:N, fsh_hotel_id, fsh_fs_id, hotel.hotels, hotel.facilities_support, hotel.facility_support_hotels
+1:N, cagro_id, faci_cagro_id, master.category_group, hotel.facilities
+1:N, hotel_id, faci_hotel_id, hotel.hotels, hotel.facilities
+1:N, faci_id, fapho_faci_id, hotel.facilities, hotel.facility_photos
+1:N, faci_id, faph_faci_id, hotel.facilities, hotel.facility_price_history
